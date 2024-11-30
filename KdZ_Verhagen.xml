@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="KdZ_Verhagen">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">Konvolut ZNA 44a + b</title>
+            <editor key="PL">Pietro Maria Liuzzo</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliotheca Hertziana</authority>
+            <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für
+               Kunstgeschichte</publisher>
+            <pubPlace>Roma</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>25.09.2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://d-nb.info/gnd/2016864-0">Kupferstichkabinet - Staatlichen
+                     Museen zu Berlin</repository>
+                  <collection>Hans Verhagen Der Stomme</collection>
+                  <idno>Konvolut 44a und 44b</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Collection of drawings of Hans Verhagen der Stomme</summary>
+
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="Other">
+                     <supportDesc>
+                        <support>
+                           <watermark source="bibliography.xml#Rikken2014">watermarks in the paper of Verhagen’s drawings indicate a date between 1547 and 1568.</watermark>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>
+                           <!--<measure unit="leaf">1</measure>
+                           <dimensions type="outer" unit="mm">
+                              <height>195</height>
+                              <width>130</width>
+                              <depth>52</depth>
+                           </dimensions>-->
+                        </extent>
+
+                        <condition/>
+
+                     </supportDesc>
+
+
+                  </objectDesc>
+
+                  <handDesc>
+                     <handNote xml:id="square">Brown square letter</handNote>
+                     <handNote xml:id="red">Red ink</handNote>
+                     <handNote xml:id="gothic">Gothic script</handNote>
+                     <handNote xml:id="print">Print script</handNote>
+                     <handNote xml:id="gez_amh">Black (Amharic and Geez)</handNote>
+                  </handDesc>
+                  <decoDesc>
+
+                     <decoNote type="drawing" xml:id="d1_Dormouse">
+                        <desc>
+                           <idno>KdZ 26213</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183495/bh607381"
+                              >Haselmaus - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F26(HAZELDORMOUSE)">DORMOUSE</term>
+                        </desc>
+                        <q><foreign xml:lang="la">mus terrestris</foreign></q>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607381.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d1_Dormouse"
+                                 name="relations.xml#vorlage_zu"
+                                 passive="Hoefnagel_FourElements.xml#terra_f20">
+                                 <desc>Copied on folio XX of Volume Terra <ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+
+                              <relation active="KdZ_Verhagen.xml#d1_Dormouse"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f401">
+                                 <desc>Rat copied on f. 401r <ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/>
+                                 </desc>
+                              </relation>
+
+                           </listRelation>
+                        </note>
+                     </decoNote>
+
+                     <decoNote type="drawing" xml:id="d2_Mouse_Ratte">
+                        <desc>
+                           <idno>KdZ 26214</idno>
+                           <idno>Dreyer 1</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183496/bh607360">Ratte
+                              und Mäuse - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F26(MOUSE)">MOUSE</term>
+                           <term ref="https://iconclass.org/25F26(RAT)">RAT</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">Glis.</foreign>
+                           <handShift new="#print"/>
+                           <foreign xml:lang="fr">Un Rat.</foreign>
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">አንፄዋ፡</foreign>
+                           <foreign xml:lang="la">Amharice</foreign>
+                           <foreign xml:lang="amh">ኀይጽ፡</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607360.jpg"/>
+                        </figure>
+                     </decoNote>
+
+                     <decoNote type="drawing" xml:id="d3_Mouse_Ratte">
+                        <desc>
+                           <idno>KdZ 26214</idno>
+                           <idno>Dreyer 2</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183496/bh607360">Ratte
+                              und Mäuse - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F26(MOUSE)">MOUSE</term>
+                           <term ref="https://iconclass.org/25F26(RAT)">RAT</term>
+                        </desc>
+                        <label>
+                           <handShift new="#print"/>
+                           <foreign xml:lang="fr">Souris.</foreign>
+                           <handShift new="#gothic"/>
+                           <foreign xml:lang="de">Eine Mauß.</foreign>
+                        </label>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">Mures</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607360.jpg"/>
+                        </figure>
+                        <listRelation>
+                           <relation active="KdZ_Verhagen.xml#d3_Mouse_Ratte"
+                              name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f401">
+                              <desc>rat copied on Pisa MS 514, f. 401r. <ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                           </relation>
+                           <relation active="KdZ_Verhagen.xml#d3_Mouse_Ratte"
+                              name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f398">
+                              <desc>White mouse copied on Pisa MS 514, f. 398r. <ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                           </relation>
+                           <relation   
+                              active="KdZ_Verhagen.xml#d2_Mouse_Ratte"
+                              name="relations.xml#vorlage_zu" 
+                              passive="Amsterdam_RijksmuseumLombard.xml#rp-t-1952-359">
+                           </relation>
+                           </listRelation>
+                     </decoNote>
+
+                     <decoNote type="drawing" xml:id="d3_Turtles">
+                        <desc>
+                           <idno>KdZ 26215</idno>
+                           <idno>Dreyer 3</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183519/bh607352">Land-
+                              und Sumpfschildkröte - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/en/25F44">Turtle</term>
+                        </desc>
+                        <label>
+                           <foreign xml:lang="de"/>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607352.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d3_Turtles"
+                                 name="relations.xml#vorlage_zu"
+                                 passive="Hoefnagel_FourElements.xml#terra_f55">
+                                 <desc>Copied on folio LV of Volume Terra <ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+
+                     <decoNote type="drawing" xml:id="d4_Sheep">
+                        <desc>
+                           <watermark>sphera</watermark>
+                           <idno>KdZ 26216</idno>
+                           <idno>Dreyer 4</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183540/bh607379"
+                              >Widder und Mutterschaf - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/en/47I2131">Widder</term>
+                           <term ref="https://iconclass.org/en/47I2132">Mutterschaf</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">Ovis</foreign>
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">በግዕት፡ </foreign> <foreign xml:lang="la">Amh.</foreign> <foreign xml:lang="amh">እንስት፡ በግዕ፡</foreign>
+                           <handShift new="#red"/><foreign xml:lang="fr">Une Brebis.</foreign>
+                           <note>Written on top of triangular repair in paper</note>
+                        </label>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              Aries.</foreign> <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">ሐርጌ፡</foreign> <foreign xml:lang="la">Amharicé</foreign> <foreign xml:lang="amh">አውራ፡</foreign> 
+                           <foreign xml:lang="amh">በሐኰ፡</foreign>  <foreign xml:lang="la">specialiter</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607379.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d4_Sheep"
+                                 name="relations.xml#vorlage_zu"
+                                 passive="Hoefnagel_FourElements.xml#terra_f28">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, folio XXVIII <ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/> now Louvre R.F. 38986</desc>
+                              </relation>
+                              <relation name="relations.xml#vorlage_zu"><desc>used in Missale Romanum Erzherzog Ferdinands auf fol. 2r, fol. 33v, fol. 409r, fol. 370r<ref type="source"
+                                 target="bibliography.xml#Dreyer1987"/></desc></relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+
+                     <decoNote type="drawing" xml:id="d5_Swan">
+                        <desc>
+                           <watermark>Lilie</watermark>
+                           <idno>KdZ 26217</idno>
+                           <idno>Dreyer 5</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183514/bh607261"
+                              >Höckerschwäne - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/en/25F36%28MUTESWAN%29">Mute Swan</term>
+                        </desc>
+                        <label><handShift new="#square"/><foreign xml:lang="la">Cygnus.</foreign> <handShift new="#red"/><foreign xml:lang="fr">Cigne.</foreign></label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607261.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d5_Swan"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aier_f28">
+                                 <desc>Upper Figure, copied in Hoefnagel, Georg, Aier, Blatt XXVIII <ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d5_Swan"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aier_f24">
+                                 <desc>Lower Figure, copied in Hoefnagel, Georg, Aier, Blatt XXIV <ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d5_Swan"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f197">
+                                 <desc><ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d5_Swan"
+                                 name="relations.xml#vorlage_zu" passive="Amsterdam_Rijksmuseum.xml#inv_52_377">
+                                 <desc>Drawing cannot be found online. <ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d5_Swan"
+                                 name="relations.xml#vorlage_zu" passive="SGSM.xml#inv_5827">
+                                 <desc>Drawing cannot be found online. <ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+
+                     <decoNote type="drawing" xml:id="d6_Squirrel">
+                        <desc>
+                           <idno>KdZ 26218</idno>
+                           <idno>Dreyer 6</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183491/bh607302">Zwei
+                              Eichhörnchen - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F26(SQUIRREL)">Nagetiere:
+                              Eichhörnchen</term>
+                        </desc>
+                        <label>
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Escurieu</foreign>
+                           <handShift new="#gothic"/>
+                           <foreign xml:lang="de">Eichhorn</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607302.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d6_Squirrel"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f54">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, Blatt LIIII<ref type="source"
+                                       target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation name="relations.xml#vorlage_zu"><desc>Used in Missale Romanum Erzherzog Ferdinands auf fol. 34v, fol. 35r.<ref type="source"
+                                 target="bibliography.xml#Dreyer1987"/></desc></relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     
+                     <decoNote type="drawing" xml:id="d7_Bear">
+                        <desc>
+                           <idno>KdZ 26219</idno>
+                           <idno>Dreyer 7</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183544/bh607297">Braunbär - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F23(BEAR)">Raubtiere: Bär</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              Ursus.</foreign> 
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">ድብ፡</foreign>
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Un Ours.</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607297.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d7_Bear"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f15">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, Blatt XV<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation 
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>Copied in the same size in lot 158 Christie's Auction 2. July 1985.<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d7_Bear"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f383top">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+
+
+                     <decoNote type="drawing" xml:id="d8_Pork">
+                        <desc>
+                           <watermark>Verflöchtene Säulen (torted columns)</watermark>
+                           <idno>KdZ 26220</idno>
+                           <idno>Dreyer 8</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183498/bh607249">Eber - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/47I2121(EBER)">47 I 21 21 * Eber</term>
+                        </desc>
+                        <label>
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Un pourceau.</foreign>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              PORCUS.</foreign> 
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">ኩራጌሌዮስ፡</foreign> <foreign xml:lang="la">Amhar.</foreign> <foreign xml:lang="amh">ሐሸሞ፡</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607249.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d8_Pork"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f18">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, Blatt XVIII<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d8_Pork"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f407bottom">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d9_turkey">
+                        <desc>
+                           <idno>KdZ 26221</idno>
+                           <idno>Dreyer 9</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183517/bh607280">Truthahn und Truthenne - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F38(WILD TURKEY)">Laufvögel</term>
+                        </desc>
+                        <label>
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Coq d´Inde</foreign>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              MELEAGRIDES. GALLOPAVI.</foreign> 
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607280.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d9_turkey"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f147">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d10_rail">
+                        <desc>
+                           <idno>KdZ 26222</idno>
+                           <idno>Dreyer 10</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183512/bh607376">Wasservogel - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F36">Wasservögel</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                             OEDICNEMUS.</foreign> 
+                        </label>
+                        <note>Lower half of a former image with two birds <ref type="source"
+                           target="bibliography.xml#Dreyer1987"/>.</note>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607376.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d10_rail"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aier_f52">
+                                 <desc>Copied in Hoefnagel, Georg, Aier, Blatt LII<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d10_rail"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f226">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d11_dog">
+                        <desc>
+                           <watermark>lilie</watermark>
+                           <idno>KdZ 26223</idno>
+                           <idno>Dreyer 11</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183505/bh607281">Jagdhund (Wasserhund) - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/43C1147">Jagdhunde</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              CAN. ACQUATICUS.</foreign> 
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Un chien d'eau.</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607281.jpg"/>
+                        </figure>
+                     </decoNote>
+                
+                     <decoNote type="drawing" xml:id="d12_cat">
+                        <desc>
+                           <idno>KdZ 26224</idno>
+                           <idno>Dreyer 12</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183511/bh607315">Hauskatze mit erbeuteter Maus - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/34B121">Katze und Maus</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              CATUS. FELIS.</foreign> 
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">ድመት፡</foreign>
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607315.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d12_cat"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f403">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d13_blueroller">
+                        <desc>
+                           <idno>KdZ 26225</idno>
+                           <idno>Dreyer 13</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183518/bh607331">Blauracke - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F39(EUROPEAN ROLLER)">andere Vögel</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">
+                              MEROPS.</foreign> 
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607331.jpg"/>
+                        </figure>
+                        <note>Upper half of a former image with two birds <ref type="source"
+                           target="bibliography.xml#Dreyer1987"/>.</note>
+                        <note>
+                           <listRelation>
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>Hans Bols Icones Animalium II fol. 44<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d12_cat"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f103">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     
+                     
+                     <decoNote type="drawing" xml:id="d14_eagle">
+                        <desc>
+                           <watermark>Sphere</watermark>
+                           <idno>KdZ 26226</idno>
+                           <idno>Dreyer 14</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183515/bh607237">Seeadler - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F33(WHITE-TAILED EAGLE)">Greifvögel</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">AQUILA.</foreign> 
+                           
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">ንስር፡ </foreign> 
+                           
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Aigle</foreign> 
+                           
+                           <handShift new="#"/>
+                           <foreign>Aquila</foreign> 
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607237.jpg"/>
+                        </figure>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/kdz/26226_Adler.jpeg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d14_eagle"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aier_f3">
+                                 <desc>Copied in Hoefnagel, Georg, Aier, Blatt III<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>Miniatur auf Elfbein an der Orgel der Reichen Kapelle der Münchener Residenz<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>mit blitzen und bindenschild bereichert auf fol. 34r des Missale Romanum Erzherzog Ferdinands.<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d15_elephant">
+                        <desc>
+                           <idno>KdZ 26227</idno>
+                           <idno>Dreyer 15</idno>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F25(ELEPHANT)">Elephant</term>
+                        </desc>
+                        <label>
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">ELEPHAS.</foreign> 
+
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">ነጌ፡</foreign> <foreign xml:lang="la">Amh.</foreign> <foreign xml:lang="amh">ዘኾን፡</foreign>
+                           
+                           
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Un elephant.</foreign>
+                           
+                           
+                        </label>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/kdz/26227_Elephant.jpeg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d15_elephant"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f1">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, Blatt I<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>Hans Bols Icones [...] Animalium I fol. 4<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/>. fol. 5 Elephant liegend... auch von Verhagen gezeichnet.</desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d16_hare">
+                        <desc>
+                           <watermark>Sphere</watermark>
+                           <idno>KdZ 26228</idno>
+                           <idno>Dreyer 16</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183546/bh607338">Hase - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F26(HARE)">Nagetiere: Hase</term>
+                        </desc>
+                        <label>
+                         
+                           <handShift new="#gez_amh"/>
+                           <foreign xml:lang="gez">መንተሌ።</foreign> <foreign xml:lang="la">Amharicè.</foreign> <foreign xml:lang="amh">ጽንቸል፡</foreign>
+                           
+                           
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Lievre</foreign>
+                           
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">LEPUS.</foreign> 
+                           
+                        </label>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607338.jpg"/>
+                        </figure>
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/kdz/26228_Feldhase.jpeg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d16_hare"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f54">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, Blatt LIIII<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>in eine anonyme Zeichnung des Frühen 17. Jahrhunderts übernommen<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/>. Christie´s London 19 April 1988 lot 125</desc>
+                              </relation>
+                              
+                              <relation active="KdZ_Verhagen.xml#d16_hare"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f372">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d17_wryneck">
+                        <desc>
+                           <idno>KdZ 26229</idno>
+                           <idno>Dreyer 17</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183516/bh607293">Wendehals - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F39(WRYNECK)">andere Vögel: Wendehals</term>
+                        </desc>
+                        <label>
+                           
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la">IYNX. TORQUILLA.</foreign> 
+                           
+                        </label>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607293.jpg"/>
+                        </figure>
+                        <note>Lower half of a former image with two birds <ref type="source"
+                           target="bibliography.xml#Dreyer1987"/>.</note>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d17_wryneck"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aier_f32">
+                                 <desc>Copied in Hoefnagel, Georg, Aier, Blatt XXXII<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>in eine anonyme Zeichnung des Frühen 17. Jahrhunderts übernommen<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/>. Christie´s London 19 April 1988 lot 125</desc>
+                              </relation>
+                              
+                              <relation active="KdZ_Verhagen.xml#d17_wryneck"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f105">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d18_goat">
+                        <desc>
+                           <watermark>Sphere</watermark>
+                           <idno>KdZ 26230</idno>
+                           <idno>Dreyer 18</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183510/bh607341">Ziege - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/47I2141 ">Ziegenbock</term>
+                        </desc>
+                        <label>
+                           
+                           <handShift new="#square"/>
+                           <foreign xml:lang="fr" resp="bibliography.xml#Dreyer1987">CAPRA.</foreign><!--read with ultraviolet light under the white cover by Dreyer-->  
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Une chevre.</foreign> 
+                           
+                        </label>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607341.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d18_goat"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f25">
+                                 <desc>Copied in Hoefnagel, Georg, Terra, Blatt XXV<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                              <relation
+                                 name="relations.xml#vorlage_zu" >
+                                 <desc>Hans Bols Icones [...] Animalium I fol. 40<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/> laufend</desc>
+                              </relation>
+                           
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d19_heron">
+                        <desc>
+                           <watermark>lilie</watermark>
+                           <idno>KdZ 26231</idno>
+                           <idno>Dreyer 19</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08185983/bh607325">Silberreiher - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F37(ARDEA ALBA)">Schnepfen- und Watvögel</term>
+                        </desc>
+                        <label>
+                           
+                           <handShift new="#square"/>
+                           <foreign xml:lang="la" >BUTAURI.</foreign>  
+                           <handShift new="#red"/>
+                           <foreign xml:lang="fr">Herons blancs.</foreign> 
+                           <handShift new="#"/>
+                           <foreign xml:lang="la">i.e. Ardea Albae</foreign> 
+                           <handShift new="#"/>
+                           <foreign xml:lang="de">Weisse Reiger</foreign> 
+                           <handShift new="#"/>
+                           <foreign xml:lang="de">Hollandis Quaekreyger</foreign>
+                           <foreign xml:lang="de">Quaekreyger</foreign> 
+                           
+                        </label>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607325.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d19_heron"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aier_f19">
+                                 <desc>Copied in Hoefnagel, Georg, Aier, Blatt XIX<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d19_heron"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f227">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="d20_swordfish">
+                        <desc>
+                           <idno>KdZ 26232</idno>
+                           <idno>Dreyer 20</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183513/bh607355">Schwert- oder Speerfisch - Gesamtansicht</ref>
+                           <rs type="attribution" source="bibliography.xml#Dreyer1987"
+                              ref="persons.xml#Verhagen">Hans Verhagen der Stomme</rs>
+                           <term ref="https://iconclass.org/25F62(SWORD-FISH)">Knochenfische: Schwertfisch</term>
+                        </desc>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607355.jpg"/>
+                        </figure>
+                        <note>
+                           <listRelation>
+                              <relation active="KdZ_Verhagen.xml#d20_swordfish"
+                                 name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#aqua_f2">
+                                 <desc>Copied in Hoefnagel, Georg, Aier, Blatt XIX<ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              <relation active="KdZ_Verhagen.xml#d20_swordfish"
+                                 name="relations.xml#vorlage_zu" passive="PisaMS_514.xml#f261">
+                                 <desc><ref type="source"
+                                    target="bibliography.xml#Dreyer1987"/></desc>
+                              </relation>
+                              
+                           </listRelation>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="pike">
+                        <desc>
+                           <idno>KdZ 26233</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08185964/bh607308">Hecht - Gesamtansicht</ref>
+                           <term ref="https://iconclass.org/25F62(PIKE)">Knochenfische: Hecht</term>
+                        </desc>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607308.jpg"/>
+                        </figure>
+                        <note>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="salmon">
+                        <desc>
+                           <idno>KdZ 26234</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08183539/bh607235">Lachsfisch, wahrscheinlich Forelle - Gesamtansicht</ref>
+                           <term ref="https://iconclass.org/25F62(TROUT)">Knochenfische</term>
+                        </desc>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607235.jpg"/>
+                        </figure>
+                        <note>
+                        </note>
+                     </decoNote>
+                     
+                     <decoNote type="drawing" xml:id="deer">
+                        <desc>
+                           <idno>KdZ 26235</idno>
+                           <ref target="https://foto.biblhertz.it/media/obj/08185978/bh607349">Lachsfisch, wahrscheinlich Forelle - Gesamtansicht</ref>
+                           <term ref="https://iconclass.org/25F24(STAG)">Huftiere: Hirsch</term>
+                        </desc>
+                        
+                        <figure>
+                           <graphic url="img/Kupferstichkabinet/verhagen/fotothek/bh607349.jpg"/>
+                        </figure>
+                        <note>
+                        </note>
+                     </decoNote>
+                     
+
+                  </decoDesc>
+
+               </physDesc>
+
+               <history>
+
+                  <origin><origDate notBefore="1600" notAfter="1900"/></origin>
+                  <acquisition>The group of drawings was detached from a manuscript of which nothing
+                     is known.</acquisition>
+               </history>
+
+
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+
+
+
+         <p>Encoded according to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft
+               Guidelines</ref>. These Guidelines detail the TEI format ruled by the <ref
+               target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft
+            Schema</ref>. </p>
+
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="fr">French</language>
+            <language ident="la">Latin</language>
+            <language ident="de">German</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="en">English</language>
+         </langUsage>
+
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2024-09-25">Started encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="persons">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Relations List</title>
+                <editor key="PL">Pietro Maria Liuzzo</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Bibliotheca Hertziana</authority>
+                <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für Kunstgeschichte</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>26.09.2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Compiled list manually</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encoded according to TEI P5 Guidelines.</p>
+            </projectDesc>
+            
+            
+            
+            <p>Encoded according 
+                to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                These Guidelines detail the TEI format ruled by 
+                the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. </p>
+            
+        </encodingDesc>
+        <profileDesc>         <langUsage>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="fr">French</language>
+            <language ident="la">Latin</language>
+            <language ident="de">German</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="en">English</language>
+        </langUsage>
+            
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2024-09-26">Started encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            <list>
+                <item xml:id="vorlage_zu"><name>Vorlage zu</name><desc></desc><ptr target="https://gn.biblhertz.it/skos/the48205200"/></item>
+                <item xml:id="kopie_nach"><name>Kopie nach</name><desc></desc><ptr target="https://gn.biblhertz.it/skos/the48175700"/></item>
+                <item xml:id="nachzeichnung_von"><name>Nachzeichnung von</name><desc></desc><ptr target="https://gn.biblhertz.it/skos/the48170700"/></item>
+            </list>
+        </body>
+    </text>
+</TEI>
+

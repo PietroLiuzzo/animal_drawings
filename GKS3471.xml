@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="GKS3471">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Icones quorundam Animalium</title>
+                <title type="add">scil. Quadrapedum, Piscium et Avium ad nativam formam depictæ. Paa Pergament og illumin., 3 Bind, alle egenhændig paategnet af kong Christian V.</title>
+                <editor key="PL">Pietro Maria Liuzzo</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Bibliotheca Hertziana</authority>
+                <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für
+                    Kunstgeschichte</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>15.11.2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <repository>Kopenhagen, Königliche Bibliothek</repository>
+                        <collection></collection>
+                        <idno>Ms. Gl. kgl. Saml. 3471</idno>
+              
+                        <!--
+                            
+              https://soeg.kb.dk/permalink/45KBDK_KGL/1pioq0f/alma99122957938505763
+
+         -->
+                        
+<!--                        Rikken
+                        
+                        It also appears that Hans Bol, too, knew Charles v’s album. 
+                        Eight motifs from the Spanish album are found in Hans Bol’s albums: 
+                        four in his album of quadrupeds, three in his bird album and one in his fish album.
+                        
+                        Five of these eight motifs do not feature in Hoefnagel’s albums, which suggests that Bol 
+                        likewise saw the Spanish album itself. One of these motifs, a civet cat...
+                        -->
+                    </msIdentifier>
+                    
+                    <history>
+                        <origin>
+                            <origDate></origDate>
+                        </origin>
+                    </history>
+                    <physDesc>
+                        <decoDesc>
+                            
+                            <decoNote xml:id="f1">
+                                <locus>fol. 1</locus>
+                                <title>Eagle</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                
+                                <figure>
+                                    <graphic url="img/"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            <decoNote xml:id="f2">
+                                <locus>fol. 2</locus>
+                                <title>Eagle</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                
+                                <figure>
+                                    <graphic url="img/"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            <decoNote xml:id="f3">
+                                <locus>fol. 3</locus>
+                                <title>Eagle</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                
+                                <figure>
+                                    <graphic url="img/"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            <decoNote xml:id="f4">
+                                <locus>fol. 4</locus>
+                                <title>Elephant stehend</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                
+                                <figure>
+                                    <graphic url="img/"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            <decoNote xml:id="f5">
+                                <locus>fol. 5</locus>
+                                <title>Elephant liegend</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                <figure>
+                                    <graphic url="img/"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            
+                            <decoNote xml:id="f52">
+                                <locus>fol. 52</locus>
+                                <title>Civet Cat</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                <figure>
+                                    <graphic url="img/"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            
+                            <decoNote xml:id="f_marmoset">
+                                <locus>fol. ?</locus>
+                                <title>Marmoset</title>
+                                <label></label>
+                                <rs type="attribution"
+                                    ref="persons.xml#Bol">Hans Bol</rs>
+                                <figure>
+                                    <graphic url="img/ÖNB/cod_min_42/"></graphic>
+                                </figure>
+                                <note>
+                                    <listRelation>
+                                        <!--                          active          shoudl be hans Bol manuscript! Kopenhagen?-->
+                                        <relation active="GKS3471.xml#f_marmoset"
+                                            name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f41">
+                                            <desc>Hoefnagel probably borrowed the marmoset from Hans Bol (Mechelen 1534- Amsterdam 1593), since this motif
+                                                can also be found in one of the three animal albums that Bol made and from which Hoefnagel copied many motifs.
+                                                <!--27 Howeverthetwoarmadillosdonotappearin
+            Hans Bol’s albums. There are no indications that pages were taken from Hans Bol’s albums over the years, which makes it likely that Hoefnagel copied the two armadillos straight from the Spanish album. Joaneath Spicer was the first to point out that Hoefnagel borrowed motifs from Bol; her thesis is further elaborated by Hendrix,
+            op. cit. (note 14), p. 40.--><ref type="source"
+                                                    target="bibliography.xml#Rikken2014"/></desc>
+                                        </relation>
+                                    </listRelation>
+                                </note>
+                            </decoNote>
+                            
+                        </decoDesc>
+                    </physDesc>
+                    
+                    
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encoded according to TEI P5 Guidelines.</p>
+            </projectDesc>
+            
+            
+            
+            <p>Encoded according to the <ref target="https://betamasaheft.eu/Guidelines/">Beta
+                maṣāḥǝft Guidelines</ref>. These Guidelines detail the TEI format ruled by the
+                <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft
+                    Schema</ref>. </p>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+                <language ident="fr">French</language>
+                <language ident="la">Latin</language>
+                <language ident="de">German</language>
+                <language ident="pt">Portuguese</language>
+                <language ident="en">English</language>
+            </langUsage>
+            
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2024-09-26">Started encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab/>
+        </body>
+    </text>
+</TEI>

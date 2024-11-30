@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="PisaMS_514">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Pisa MS 514 Disegni di Animali</title>
+                <editor key="PL">Pietro Maria Liuzzo</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Bibliotheca Hertziana</authority>
+                <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für
+                    Kunstgeschichte</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>26.09.2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <repository>Biblioteca Universitaria</repository>
+                        <collection>Hortus Pisanus manoscritti</collection>
+                        <idno>MS 514</idno>
+<!--                        
+                        
+                        
+Titolo:Disegni di animali
+Data di pubblicazione:1501-1600
+Contributore:De Bruyn Nicolaes
+Froeschl Daniel
+Z. S.
+Tipo documento:manoscritto
+materiale grafico
+Livello bibliografico:Monografia
+Formato:cartaceo, 316 x 201 mm; 426 cc.complessive
+                        -->
+                    </msIdentifier>
+                    
+                        <history>
+                            <origin>
+                                <origDate>1501-1600</origDate>
+                            </origin>
+                        </history>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote xml:id="f76">
+                                    <locus></locus>
+                                    <title>picchio</title>
+                                    <label>Picchio</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/76r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f103">
+                                    <locus>fol. 103</locus>
+                                    <title>merops</title>
+                                    <label>Merops</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/103r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                <decoNote xml:id="f105">
+                                    <locus>fol. 105</locus>
+                                    <title>Iynx</title>
+                                    <label>Iynx torquilla</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/105r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f147">
+                                    <locus>fol. 147</locus>
+                                    <title>Turkey</title>
+                                    <label>Meleagrides gallopavi</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/147r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote> 
+                                <decoNote xml:id="f156">
+                                    <locus>fol. 156</locus>
+                                    <title>Salamander</title>
+                                    <label>Salamandra</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/156r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f170">
+                                    <locus>fol. 170</locus>
+                                    <title>Anatra</title>
+                                    <label>Colymbus Maior</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/170r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f197">
+                                    <locus>fol. 197</locus>
+                                    <title>Cigno</title>
+                                    <label>Cygnus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/197r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                
+                                <decoNote xml:id="f226">
+                                    <locus>fol. 227</locus>
+                                    <title>Oedicnemus</title>
+                                    <label>Oedicnemus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/226r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                <decoNote xml:id="f227">
+                                    <locus>fol. 227</locus>
+                                    <title>Butauri</title>
+                                    <label>Butauri</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/227r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f261">
+                                    <locus>fol. 261</locus>
+                                    <title>Swordfish</title>
+                                    <label>Acus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/261r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f301top">
+                                    <locus>fol. 301</locus>
+                                    <title>Urus</title>
+                                    <label>Urus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/301r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f301bottom">
+                                    <locus>fol. 301</locus>
+                                    <title>Taurus</title>
+                                    <label>Taurus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/301r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                
+                                <decoNote xml:id="f348">
+                                    <locus>fol. 348</locus>
+                                    <title>Hippo skull</title>
+                                    <label>...[several annotations on and around the skull]...</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/348r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f372">
+                                    <locus>fol. 372</locus>
+                                    <title>Lepus</title>
+                                    <label>Lepus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/372r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f380">
+                                    <locus>fol. 380</locus>
+                                    <title>Taiti? Indicj</title>
+                                    <label>Taiti? Indicj</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/380r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f381">
+                                    <locus>fol. 381</locus>
+                                    <title>Camaleontes</title>
+                                    <label>Camaleontes</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/381r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f383top">
+                                    <locus>fol. 383</locus>
+                                    <title>Ursus</title>
+                                    <label>Ursus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/383r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f383bottom">
+                                    <locus>fol. 383</locus>
+                                    <title>Lupus</title>
+                                    <label>Lupus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/383r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f388top">
+                                    <locus>fol. 388</locus>
+                                    <title>Galeopitechus</title>
+                                    <label>Galeopitecus sagora? vel sagura? vungi? </label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/383r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                
+                                
+                                
+                                
+                                <decoNote xml:id="f398">
+                                    <locus>fol. 398</locus>
+                                    <title>Mouse</title>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/398r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f401">
+                                    <locus>fol. 401</locus>
+                                    <title>Rat and Dormouse</title>
+                                    <label>glis</label>
+                                    <label>mus terrestris</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/401r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f403">
+                                    <locus>fol. 401</locus>
+                                    <title>Catus. Felis</title>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/403r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="f407bottom">
+                                    <locus>fol. 407</locus>
+                                    <title>Pork</title>
+                                    <label>Porcus</label>
+                                    <figure>
+                                        <graphic url="img/pisa/ms_514/407r.jpeg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                            </decoDesc>
+                        </physDesc>
+                   
+                    
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encoded according to TEI P5 Guidelines.</p>
+            </projectDesc>
+            
+            
+            
+            <p>Encoded according to the <ref target="https://betamasaheft.eu/Guidelines/">Beta
+                maṣāḥǝft Guidelines</ref>. These Guidelines detail the TEI format ruled by the
+                <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft
+                    Schema</ref>. </p>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+                <language ident="fr">French</language>
+                <language ident="la">Latin</language>
+                <language ident="de">German</language>
+                <language ident="pt">Portuguese</language>
+                <language ident="en">English</language>
+            </langUsage>
+            
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2024-09-26">Started encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab/>
+        </body>
+    </text>
+</TEI>

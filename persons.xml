@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="persons">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Persons List</title>
+                <editor key="PL">Pietro Maria Liuzzo</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Bibliotheca Hertziana</authority>
+                <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für Kunstgeschichte</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>26.09.2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Compiled list manually</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encoded according to TEI P5 Guidelines.</p>
+            </projectDesc>
+            
+            
+            
+            <p>Encoded according 
+                to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                These Guidelines detail the TEI format ruled by 
+                the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. </p>
+            
+        </encodingDesc>
+        <profileDesc>         <langUsage>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="fr">French</language>
+            <language ident="la">Latin</language>
+            <language ident="de">German</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="en">English</language>
+        </langUsage>
+            
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2024-09-26">Started encoding</change>
+        </revisionDesc>
+    </teiHeader>
+   <text> 
+       <body>
+<listPerson>
+    <person xml:id="Verhagen">
+        <persName xml:lang="de">Hans Verhagen de Stomme</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="it"></persName>
+        <floruit notBefore="1540" notAfter="1600"/>
+        <idno type="AKL"  corresp="https://www.degruyter.com/database/AKL/entry/_00712242/html"/>
+        <idno type="Wikidata"  corresp="https://www.wikidata.org/wiki/Q17309145"/>
+    </person>
+    
+    <person xml:id="Hoefnagel">
+        <persName xml:lang="de">Joris Hoefnagel</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="it"></persName>
+        <floruit notBefore="1542" notAfter="1600"/>
+        <idno type="AKL"  corresp="https://www.degruyter.com/database/AKL/entry/_00106351T/html"/>
+        <idno type="AKL"  corresp="https://www.degruyter.com/database/AKL/entry/_957cde1b-f253-4484-b403-18a14ee1a5b2/html"/>
+        <idno type="Wikidata"  corresp="https://www.wikidata.org/wiki/Q1388840"/>
+    </person>
+    
+<!--    
+    Ulisse Aldrovandi
+    
+    Hiob Ludolf
+    Abba Gorgorios
+    
+    Abraham Ortelius
+    Giorgio Liberale
+    Lambert Lombard
+    Albrecht Dürer
+    Hans Bol
+    Ludger tom Ring the Younger (Münster 1522-Braunschweig 1584)
+    Hubert Goltzius 
+    Maerten de Vos
+    
+    Deutscher Meister um 1600
+    Hans Bol
+    Hans von Aachen
+    Arcimboldo Giuseppe
+    Bartholomäus Spranger
+    Joseph Henitz d. Ä.
+    De Bruyn Nicolaes
+    Froeschl Daniel
+    
+    Aubry, Johan Philipp
+    Roos, Johann Heinrich
+    
+    Athanasius Kircher
+    
+    Jacob Bornitz
+    
+    Christina Schweden
+    Rudolf II
+    Ferdinand of Tirol
+    Albrecht V
+    Wilhelm V
+    Herzog Ernst I. von Sachsen-Gotha
+    
+    -->
+    
+</listPerson>
+    </body>
+   </text>
+</TEI>

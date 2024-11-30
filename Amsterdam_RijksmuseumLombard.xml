@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="Amsterdam_RijksmuseumLombard">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Amsterdam - Spanish Album</title>
+                <editor key="PL">Pietro Maria Liuzzo</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Bibliotheca Hertziana</authority>
+                <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für Kunstgeschichte</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>26.09.2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!--                     
+                        The album was purchased in 1952 from the art dealer Otto Wertheimer in Paris and was previously 
+                        owned by Charles Férault. 
+                        The drawings from the album have the inventory numbers rp-t-1952-345 to 395; 
+                        in 1960 three more drawings (inv. nos. rp-t-1960-56 to 58) which also belong in the album were 
+                        bought from Geneviève Aymonier-Férault (a daughter of Charles Férault?).
+                    -->
+                    <msIdentifier>
+                        <repository >Rijksmuseum</repository>
+                        <collection></collection>
+                  
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary></summary>
+                        
+                        
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Other">
+                            <supportDesc>
+                                <support>
+                                    <watermark>watermarks in a number of drawings vary in dating from around 1512 to 1580</watermark>
+                                    <watermark>Boon did, though, correct the date of the watermark of the pages on which the drawings are mounted. 
+                                        The mark should be dated to around 1585, not 1570.</watermark>
+                                    <material key="parchment"/>
+                                </support>
+                                <extent>
+                                   
+                                </extent>
+                                
+                                <condition></condition>
+                            </supportDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                        
+                        <decoDesc>
+                            <decoNote type="drawing" xml:id="title">
+                                <watermark ana="paper_support">eagles <date>1570</date></watermark>
+                                <title>Title page</title>
+                                <date>1570</date>
+                                <label></label>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            
+                            
+                            <decoNote type="drawing" xml:id="rp-t-1952-345">
+                                <desc>
+                                    <idno>rp-t-1952-345</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            <decoNote type="drawing" xml:id="rp-t-1952-346">
+                                <desc>
+                                    <idno>rp-t-1952-346</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            <decoNote type="drawing" xml:id="rp-t-1952-347">
+                                <desc>
+                                    <idno>rp-t-1952-347</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            <decoNote type="drawing" xml:id="rp-t-1952-348">
+                                <desc>
+                                    <idno>rp-t-1952-348</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            <decoNote type="drawing" xml:id="rp-t-1952-349">
+                                <desc>
+                                    <idno>rp-t-1952-349</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            <decoNote type="drawing" xml:id="rp-t-1952-350">
+                                <desc>
+                                    <idno>rp-t-1952-350</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            <decoNote type="drawing" xml:id="rp-t-1952-350a">
+                                <watermark ana="drawing">crescent moon <date>1562</date></watermark>
+                                <watermark ana="paper_support">eagle <date>1570</date></watermark>
+                                <title>Roe Deer</title>
+                                <date>1570</date>
+                                <desc>
+                                    <idno>rp-t-1952-350a</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                            <decoNote type="drawing" xml:id="rp-t-1952-356">
+                                <title>Armadillos</title>
+                                <label>Armadillos</label>
+                                <desc>
+                                    <idno>rp-t-1952-356</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                                <note><listRelation><relation active="Amsterdam_RijksmuseumLombard.xml#rp-t-1952-356"
+                                    name="relations.xml#vorlage_zu" passive="GKS3471.xml#f_marmoset">
+<!--                          passive          shoudl be hans Bol manuscript! Kopenhagen?-->
+                                    <desc><ref type="source"
+                                        target="bibliography.xml#Rikken2014"/>
+                                    </desc>
+                                </relation></listRelation></note>
+                            </decoNote>
+                            
+                            <decoNote type="drawing" xml:id="rp-t-1952-358">
+                                <watermark>The watermark in the paper of the civet
+                                    cat in the Spanish album is a dog and indicates a date <date>between 1567 and 1571</date>.</watermark>
+                                <title>Civet Cat</title>
+                                <label>2o Gato de Rusia</label>
+                                <desc>
+                                    <idno>rp-t-1952-358</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                                <note><listRelation><relation active="Amsterdam_RijksmuseumLombard.xml#rp-t-1952-358"
+                                    name="relations.xml#vorlage_zu" passive="GKS3471.xml#f52">
+                                    <desc><ref type="source"
+                                        target="bibliography.xml#Rikken2014"/>
+                                        Peter Dreyer believes that the artistic quality of the animal drawings in
+                                        the Spanish album lags far behind Verhagen’s drawings, leading him to conclude 
+                                        that Verhagen’s drawings were the original versions, which were copied by an unknown – 
+                                        and not all that skilful – artist for Charles v’s album.
+                                    </desc>
+                                </relation>
+                                    <relation active="Amsterdam_RijksmuseumLombard.xml#rp-t-1952-358"
+                                        name="relations.xml#vorlage_zu" passive="Hoefnagel_FourElements.xml#terra_f10">
+                                        <desc><ref type="source"
+                                            target="bibliography.xml#Rikken2014"/>
+                                            His version is closer to the civet in Charles v’s album than the one in Bol’s album, in view of the strong en profil in which he depicted the animal. However he adjusted two conspicuous elements. The collar is missing; this is explained by the fact that he attempted to portray the civet cat in its natural habitat, where a sign of captivity did not belong. The ears have also been placed differently, much further back. This may have to do with the omission of the collar, but does provide a less accurate rendering. Given the differ- ences and similarities, the civet cat in Charles v’s album appears to have been the source for both Bol’s and Hoefnagel’s civet cat.
+                                        </desc>
+                                    </relation>
+                                    <relation active="Amsterdam_RijksmuseumLombard.xml#rp-t-1952-358"
+                                        name="relations.xml#kopie_nach"><desc>bottom on the right in a small 
+                                            panel with sixteen animal motifs by Ludger tom Ring the Younger (Münster 1522-Braunschweig 1584)</desc></relation>
+                                </listRelation></note>
+                            </decoNote>
+                            
+                             <decoNote type="drawing" xml:id="rp-t-1952-359">
+                                <title>Rats and Mice</title>
+                                <date>1560</date>
+                                 <!--                            lambert lombard, Rats and Mice, c. 1560. 
+                                Pen and brown ink and watercolour on paper, 182 x 277 mm. Amsterdam, Rijksmuseum, inv. no. rp-t-1952-359.-->
+                                 
+                                <desc>
+                                    <idno>rp-t-1952-359</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                                 <!--<note><listRelation><relation active="Amsterdam_RijksmuseumLombard.xml#rp-t-1952-359"
+                                     name="relations.xml#vorlage_zu" passive="KdZ_Verhagen.xml#d2_Mouse_Ratte">
+                                     <desc><ref type="source"
+                                         target="bibliography.xml#Rikken2014"/>
+                                         Peter Dreyer believes that the artistic quality of the animal drawings in
+                                         the Spanish album lags far behind Verhagen’s drawings, leading him to conclude 
+                                         that Verhagen’s drawings were the original versions, which were copied by an unknown – 
+                                         and not all that skilful – artist for Charles v’s album.
+                                     </desc>
+                                 </relation></listRelation></note>-->
+                            </decoNote>
+                            
+                            <!--...-->
+                            <decoNote type="drawing" xml:id="rp-t-1952-395">
+                                <desc>
+                                    <idno>rp-t-1952-395</idno>
+                                </desc>
+                                <figure>
+                                    <graphic url="img/rkd"></graphic>
+                                </figure>
+                            </decoNote>
+                            
+                        </decoDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate source="cover">1542</origDate>
+                            
+                            <origDate source="dated_drawing">1570</origDate>
+                        </origin>
+                        <acquisition></acquisition>
+                    </history>
+                    
+                   
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encoded according to TEI P5 Guidelines.</p>
+            </projectDesc>
+            
+            
+            
+            <p>Encoded according 
+                to the <ref target="https://betamasaheft.eu/Guidelines/">Beta maṣāḥǝft Guidelines</ref>. 
+                These Guidelines detail the TEI format ruled by 
+                the <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft Schema</ref>. </p>
+            
+        </encodingDesc>
+        <profileDesc>         <langUsage>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="fr">French</language>
+            <language ident="la">Latin</language>
+            <language ident="de">German</language>
+            <language ident="pt">Portuguese</language>
+            <language ident="en">English</language>
+        </langUsage>
+            
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2024-09-26">Started encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab/>
+        </body>
+    </text>
+</TEI>

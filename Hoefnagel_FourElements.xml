@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="mss" xml:lang="en" xml:id="Hoefnagel_FourElements">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Four Elements</title>
+                <author>Georg Hoefnagel</author>
+                <editor key="PL">Pietro Maria Liuzzo</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Bibliotheca Hertziana</authority>
+                <publisher>Fotothek - Bibliotheca Hertziana Max-Planck-Institut für
+                    Kunstgeschichte</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>26.09.2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <repository/>
+                        <collection>Georg Hoefnagel</collection>
+                        <idno/>
+                    </msIdentifier>
+
+                    <msPart>
+                        <msIdentifier>
+                            <idno>Terra</idno>
+                              <!--  1575/1590s -->
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <decoDesc>
+                                
+                                <decoNote xml:id="terra_f1">
+                                    <locus>fol. I</locus>
+                                    <title>An Elephant</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_1__elephant_with_insects_1987.20.6.2.jpg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="terra_f10">
+                                    <locus>fol. I</locus>
+                                    <title>Civet Cat and Lion</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_10__a_lion_and_a_civet_cat_1987.20.6.11.jpg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="terra_f15">
+                                    <locus>fol. XV</locus>
+                                    <title>A Bear and a Lynx</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_15__a_bear_and_a_lynx(_)_1987.20.6.16.jpg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                <decoNote xml:id="terra_f18">
+                                    <locus>fol. XVIII</locus>
+                                    <title>A pig with acorns</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_18__a_pig_with_acorns_1987.20.6.19.jpg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                <decoNote xml:id="terra_f20">
+                                    <locus>fol. XX</locus>
+                                    <title>Three types of Stags with a Dormouse</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_20__three_types_of_stags_with_a_dormouse(_)_1987.20.6.21.jpg"></graphic>
+                                    </figure>
+                                    
+                                </decoNote>
+                                
+                                <decoNote xml:id="terra_f25">
+                                    <locus>fol. XXV</locus>
+                                    <title>Two wild goats</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_25__two_wild_goats_1987.20.6.26.jpg"></graphic>
+                                    </figure>
+                                   <note><listRelation> <relation
+                                        name="relations.xml#vorlage_zu" >
+                                        <desc><ref type="source"
+                                            target="bibliography.xml#Dreyer1987"/> A. de Bruyn seitenverkehrt .. Blatt 10 Tierserie von 1583 ... von dort Randzeichnung des Cod. Urb. Lat. 276 Biblioteca Apostolica Vaticana. </desc>
+                                    </relation></listRelation></note>
+                                </decoNote>
+                                    
+                                <decoNote xml:id="terra_f28">
+                                        <desc><idno>Louvre R.F. 38986</idno></desc>
+                                        <locus>fol. XXVIII</locus>
+                                        <title>Sheeps</title>
+                                        <figure>
+                                            <graphic url="img/Louvre/hoefnagel/AGO145820-000_PE.jpg"></graphic>
+                                        </figure>
+                                        
+                                </decoNote>
+                                
+                                <decoNote xml:id="terra_f41">
+                                    <!--<desc><idno>1987.20.6.42.</idno></desc>-->
+                                    <locus>fol. XLI</locus>
+                                    <title>Armadillos</title>
+                                    <title>Marmoset facing left</title>
+                                    <desc>In miniature 41 in the Terra album there are two armadillos and a monkey – a marmoset (fig. 7). 
+                                        The two armadillos, at the top a nine-banded armadillo and below a three-banded variety, 
+                                        appear in exactly the same poses in Charles v’s album (fig. 8). 
+                                        The topmost has an elongated body; Hoefnagel’s creature is slightly more elongated than in Charles v’s album, 
+                                        and the armadillo below has
+                                        its back more curled. Even the light spots on the shell of the nine-banded armadillo immediately 
+                                        above the front legs and by the tail are identical in the two albums (figs. 9, 10). 
+                                        Hoefnagel probably borrowed the marmoset from Hans Bol (Mechelen 1534- Amsterdam 1593), since this motif
+                                        can also be found in one of the three animal albums that Bol made and from which Hoefnagel copied many motifs.27</desc>
+                           <!-- 
+                                     26 InmyforthcomingdissertationIwillgointo more detail about the pictorial sources from
+                                    which Hoefnagel took his motifs.
+                                   -->
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_41__two_types_of_armadillos_with_a_marmoset,_a_coconut_palm,_and_a_pepper_plant_1987.20.6.42.jpg"></graphic>
+                                    </figure>
+
+                                </decoNote>
+                                
+                                <decoNote xml:id="terra_f54">
+                                    <locus>fol. LIIII</locus>
+                                    <desc><idno>KdZ 4817</idno></desc>
+                                    <title>Squirrels and Hares</title>
+                                    <figure>
+                                        <graphic url="img/Kupferstichkabinet/hoefnagel/eichhornchen.jpg"></graphic>
+                                    </figure>
+                                </decoNote>
+                                
+                                <decoNote xml:id="terra_f55">
+                                    <locus>fol. LV</locus>
+                                    <title>Turtles</title>
+                                    <figure>
+                                        <graphic url="img/nga/hoefnagel/terra/plate_55__a_hermann%27s_or_greek_tortoise,_two_european_pond_turtles,_and_two_fritillaria_1987.20.6.56.jpg"></graphic>
+                                    </figure>
+                                    <note>
+                                        <listRelation>
+                                            <relation active="Hoefnagel_FourElements.xml#f55"
+                                                name="relations.xml#vorlage_zu"
+                                                passive="https://www.christies.com/en/lot/lot-6216459">
+                                                <desc>Copied on Christie's London 19. April 1988,
+                                                    lot 125 <ref type="source"
+                                                        target="bibliography.xml#Dreyer1987"/></desc>
+                                            </relation>
+                                        </listRelation>
+                                    </note>
+                                </decoNote>
+                                
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <idno>Aier</idno>
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <decoDesc>
+                              
+                                <decoNote type="drawing" xml:id="aier_f3">
+                                    <locus>fol. III</locus>
+                                    <title>Eagle</title>
+                                    <desc><idno>Paris Louvre R.F. 38985 </idno>
+                                    </desc>
+                                    <figure><graphic url="img/Louvre/hoefnagel/AGO145819-000_PE.jpg"></graphic></figure>
+                                </decoNote>
+                                
+                                <decoNote type="drawing" xml:id="aier_f19">
+                                    <locus>fol. XIX</locus>
+                                    <title>Egrets</title>
+                                    <figure><graphic url="img/nga/hoefnagel/aier/plate_19__two_great_egrets_with_green_breeding_masks_1987.20.8.20.jpeg"></graphic></figure>
+                                </decoNote>
+                                
+                                <decoNote type="drawing" xml:id="aier_f24">
+                                    <locus>fol. XXIV</locus>
+                                    <title>Swan</title>
+                                    <desc>
+                                    </desc>
+                                    <figure><graphic url="img/nga/hoefnagel/aier/plate_24__two_swans,_a_kingfisher,_and_a_bullfinch_1987.20.8.25.jpg"></graphic></figure>
+                                </decoNote>
+                               
+                                
+                                <decoNote type="drawing" xml:id="aier_f28">
+                                    <desc>
+                                        <idno>KdZ 4813</idno>
+                                    </desc>
+                                    <figure><graphic url="img/Kupferstichkabinet/hoefnagel/shwan.png"></graphic></figure>
+                                </decoNote>
+                                
+                                <decoNote type="drawing" xml:id="aier_f32">
+                                    <locus>fol. XXXII</locus>
+                                    <title>Wryneck</title>
+                                    <desc>
+                                        <idno></idno>
+                                    </desc>
+                                    <figure><graphic url="img/nga/hoefnagel/aier/plate_32__a_green-winged_teal,_a_juvenile_green_woodpecker,_and_two_other_birds_1987.20.8.33.jpg"></graphic></figure>
+                                </decoNote>
+                                
+                                <decoNote type="drawing" xml:id="aier_f52">
+                                    <locus>fol. LII</locus>
+                                    <title>Water birds</title>
+                                    <desc>
+                                    </desc>
+                                    <figure><graphic url="img/nga/hoefnagel/aier/plate_52__blue_tit_with_three_wading_birds_and_a_fig_tree_1987.20.8.53.jpg"></graphic></figure>
+                                </decoNote>
+                                
+                            </decoDesc>
+                            
+                            
+                        </physDesc>
+
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <idno>Aqua</idno>
+                            <!--  1575/1590s -->
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote type="drawing" xml:id="aqua_f2">
+                                    <locus>fol. LII</locus>
+                                    <title>Water birds</title>
+                                    <desc>
+                                    </desc>
+                                    <figure><graphic url="img/nga/hoefnagel/aier/plate_52__blue_tit_with_three_wading_birds_and_a_fig_tree_1987.20.8.53.jpg"></graphic></figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <idno>Ignis</idno>
+                            <!--  1575/1590s -->
+                        </msIdentifier>
+                        
+                    </msPart>
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encoded according to TEI P5 Guidelines.</p>
+            </projectDesc>
+
+
+
+            <p>Encoded according to the <ref target="https://betamasaheft.eu/Guidelines/">Beta
+                    maṣāḥǝft Guidelines</ref>. These Guidelines detail the TEI format ruled by the
+                    <ref target="https://betamasaheft.eu/Guidelines/?id=schemaView">Beta maṣāḥǝft
+                    Schema</ref>. </p>
+
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+                <language ident="fr">French</language>
+                <language ident="la">Latin</language>
+                <language ident="de">German</language>
+                <language ident="pt">Portuguese</language>
+                <language ident="en">English</language>
+            </langUsage>
+
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2024-09-26">Started encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab/>
+        </body>
+    </text>
+</TEI>
